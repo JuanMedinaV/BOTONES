@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOTONES</title>
+    <style>
+
+        .button-1{
+            background-color: #880e4f;
+            color: #000;
+            border: 1px solid #880e4f;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+            
+        }
+            
+        .button-1:hover {
+            border: 2px solid #131209;
+            background-color: #c9ff64;
+            color: black;
+            transform: translate(-12px, -12px);
+            
+        }
+
+        .button-2{
+            background-color: #000;
+            color: #33FF77;
+            border: 1px solid #000;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+            
+            
+        }
+            
+        .button-2:hover {
+            border: 2px solid #7112de;
+            background-color: rgb(255, 255, 255);
+            color: #7112de;
+            box-shadow: 0 0 35px;
+            
+            
+        }
+
+        .button-3{
+            background-color: #e0cd1c;
+            color: #ff0000;
+            border: 1px solid #e0cd1c;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+            
+        }
+            
+        .button-3:hover {
+            border: 2px solid #fe00c7;
+            background-color: #fe00c7;
+            color: blue;
+            transform: rotate(360deg);
+        }
+
+        .button-4{
+            background-color: #1900ff;
+            color: #000;
+            border: 1px solid #1900ff;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+        }
+            
+        .button-4:hover {
+            border: 2px solid #1900ff;
+            background-color: #000;
+            color: #1900ff;
+            transform: scale(3, 3);
+            
+        }
+
+        .button-5{
+            background-color: #f6ff00;
+            color: #e17800;
+            border: 1px solid #f6ff00;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+        }
+            
+        .button-5:hover {
+            border: 2px solid #00e4f4;
+            background-color: #00e4f4;
+            color: #3801ff;
+            transform: skew(50deg);
+        }
+
+        .button-6{
+            background-color: #000000;
+            color: gray;
+            border: 1px solid #000000;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+        }
+            
+        .button-6:hover {
+            border: 2px solid red;
+            background-color: #000000;
+            color: red;
+            transform: rotateY(180deg);
+        }
+
+        .button-7{
+            background-color: #168507;
+            color: white;
+            border: 1px solid #168507;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+        }
+            
+        .button-7:hover {
+            border: 2px solid #9900ff;
+            background-color: #9900ff;
+            color: #fe00c7;
+            transform: rotateX(180deg);
+            
+        }
+
+        .button-8{
+            background-color: #e5ff00;
+            color: #ff0000;
+            border: 1px solid #e5ff00;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+        }
+            
+        .button-8:hover {
+            border: 2px solid #ff8800;
+            background-color: #ff8800;
+            color: #8000ff;
+            border-radius: 50%;
+        }
+
+        .button-9{
+            background-color: #0e7488;
+            color: #fefefe;
+            border: 1px solid #0e7488;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+        }
+            
+        .button-9:hover {
+            border: 2px solid #030303;
+            background-color: #000000;
+            color: #ff00ff;
+            border-start-end-radius: 50px;
+            border-end-start-radius: 50px;
+
+        }
+
+        .button-10{
+            background-color: #C6540A;
+            color: #F0FF00;
+            border: 1px solid #C6540A;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+        }
+            
+        .button-10:hover {
+            border: 2px solid #00FF42;
+            background-color: #00FF42;
+            color: #168507;
+            border-width: 50px;
+        }
+
+        .button-11{
+            background-color: #ff0088;
+            color: #000;
+            border: 1px solid #ff0088;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+            position: relative;
+        }
+            
+        .button-11:hover {
+            border: 2px solid #000000;
+            background-color: #000000;
+            color: #ff0088;
+            position: absolute;
+            
+        }
+
+        .button-12{
+            background-color: #1cfdc5;
+            color: #000;
+            border: 1px solid #1cfdc5;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+        }
+            
+        .button-12:hover {
+            border: 2px solid #1cfdc5;
+            background-color: #000000;
+            color: #1cfdc5;
+            text-transform: uppercase;
+        }
+
+        .button-13{
+            background-color: #3700ff;
+            color: #00da0b;
+            border: 1px solid #3700ff;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+        }
+            
+        .button-13:hover {
+            border: 2px solid #ff0000;
+            background-color: #ff0000;
+            color: #ff9900;
+            padding-bottom: 10%;
+        }
+
+        .button-14{
+            background-color: #000000;
+            color: #cc00ff;
+            border: 1px solid #000000;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0,5s;
+        }
+            
+        .button-14:hover {
+            border: 2px solid #4f4d4d;
+            background-color: #4f4d4d;
+            color: #000dff;
+            padding-right: 10%;
+
+        }
+
+        .button-15{
+            background-color: #000000;
+            color: #ff5db3;
+            border: 1px solid #ff5db3;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 20px 40px;
+            transition: 0.5s;
+        }
+            
+        .button-15:hover {
+            border: 2px solid #5f5c5c;
+            background-color: #ffffff;
+            color: #5f5c5c;
+            translate: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <button class="button-1">Danger</button><br>
+        <br>
+          <button class="button-2">Danger</button><br>
+          <br>
+          <button class="button-3">Danger</button><br>
+          <br>
+          <button class="button-4">Danger</button><br>
+          <br>
+          <button class="button-5">Danger</button><br>
+          <br>
+          <button class="button-6">Danger</button><br>
+          <br>
+          <button class="button-7">Danger</button><br>
+          <br>
+          <button class="button-8">Danger</button><br>
+          <br>
+          <button class="button-9">Danger</button><br>
+          <br>
+          <button class="button-10">Danger</button><br>
+          <br>
+          <button class="button-11">Danger</button><br>
+          <br>
+          <button class="button-12">Danger</button><br>
+          <br>
+          <button class="button-13">Danger</button><br>
+          <br>
+          <button class="button-14">Danger</button><br>
+          <br>
+          <button class="button-15">Danger</button>
+        </div>
+        </html>
+</body>
